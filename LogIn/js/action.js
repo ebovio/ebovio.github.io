@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$("#logInfo").hide();
+	$("#sign").click(function(){
+		$("#signInfo").toggle(800);
+	});
+	$("#signInfo").hide();
+	$("#log").click(function(){
+		$("#logInfo").toggle(800);
+	});
+});

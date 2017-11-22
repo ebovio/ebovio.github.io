@@ -1,0 +1,542 @@
+@media print{
+	font-family: "Arial";
+	font-size: 1.5em;
+}
+
+body{
+	font-family:'Raleway',Helvetica,Arial,sans-serif;
+	font-weight:400;
+	background-color:rgba(0,0,0,0.02);
+	}
+#credentialPage{
+	width:100%;
+
+}
+.button{
+	font-family:'Raleway',Helvetica,Arial,sans-serif;
+	background-color: #96CDCD;
+
+	}
+.sobre{
+	color: #96CDCD;
+}
+
+.how{
+	color: #96CDCD;
+}
+.learn{
+	color: #96CDCD;
+}
+
+.who{
+	color: #96CDCD;
+}
+.contact{
+	color:black;
+}
+.e-mail{
+	color:black;
+}
+.button-group li{
+		padding-top:3%;}
+.button-group a{
+	color:rgba(0,0,0,1);
+	background-color:transparent;
+	}
+.button-group a:hover{
+	color:rgba(0,0,0,0.4);
+	background-color:transparent;
+	}
+.button-group{
+	float:none;
+	}
+@media only screen and (min-width: 40.063em) {
+	.button-group{
+		float:right;
+		}
+	}
+.namelogo{
+	padding:20px 10px 0px 10px;
+	}
+@media only screen and (min-width: 40.063em) {
+	.namelogo{
+		padding-bottom:20px;
+		}
+	}
+.namelogo h1{
+	font-size:1.5em;
+	font-weight:600;
+	text-align:center;
+	}
+@media only screen and (min-width: 40.063em) {
+	.namelogo h1{
+		font-size:16px;text-align:left;
+		}
+	}
+@media only screen and (min-width: 64.063em) {
+	.namelogo h1{
+		font-size:24px;
+		text-align:left;
+		}
+	}
+.hero{
+	background-image:url("http://wallpaperstock.net/wallpapers/thumbs1/42311wide.jpg");
+	background-size:cover;
+	box-shadow:inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+	height:80%;
+	}
+.intro-text{
+	padding-top:40%;
+	color:rgba(255,255,255,1);
+	text-align:center;
+	}
+@media only screen and (min-width: 40.063em) {
+	.intro-text{
+		padding-top:25%;
+		}
+	}
+@media only screen and (min-width: 64.063em) {
+	.intro-text{
+		padding-top:18%;
+		}
+	}
+.intro-text p{
+	font-family:'Shadows Into Light',cursive;font-size:44px;
+	}
+.about,.work,.contact{
+	padding:50px 0 0 0;
+	}
+.about img{
+	width:250px;
+	height:250px;
+	border-radius:150px;
+	-webkit-border-radius:150px;
+	-moz-border-radius:150px;
+	}
+.work img:hover{
+	opacity:0.5;
+	-webkit-transition:0.3s ease;
+	-moz-transition:0.3s ease;
+	-ms-transition:0.3s ease;
+	-o-transition:0.3s ease;
+	transition:0.3s ease;
+	}
+.work li{
+	height:140px;
+	overflow:hidden;
+	}
+hr{
+	border:0;
+	height:1px;
+	background-image:-webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+	background-image:-moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+	background-image:-ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+	background-image:-o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+	opacity:0.8;}footer{padding:80px 0 10px 0;}footer a:hover{color:rgba(0,0,0,0.4);
+	background-color:transparent;
+	}
+#LogInPage{
+	background-image: url("http://i1.wp.com/appleweblog.hipertextual.com/files/2012/06/MacBook-Pro-abiertas-800x436.jpg?resize=800%2C436");
+	background-size: 100% 100%;
+}
+
+#titulo{
+	margin-left: 40px;
+	font-family: 'Dosis', sans-serif;
+	color: #6E6E6E;
+	margin-top: 5%;
+	font-size: 90px;
+	/*font-weight: bold;*/
+}
+
+#title{
+	margin-left: 40px;
+	font-family: 'Dosis', sans-serif;
+	color: #6E6E6E;
+	margin-top: 200px;
+	font-size: 90px;
+}
+
+.titleM{
+	font-family: 'Dosis', sans-serif;
+	color: #0B3861;
+}
+
+.tituloM{
+	font-family: 'Dosis', sans-serif;
+	color: #0B3861;
+}
+
+#makers{
+	text-align: left;
+	font-size: 0.938em;
+}
+.images{
+	padding:10px;
+  width: 300px;
+  height: 300px;
+}
+
+.inicio{
+	text-align: center;
+	margin-top: 0.625em;
+}
+
+
+#LogIn{
+	width: 15.625em;
+	height: 9.375em;
+	background-color: none;
+	margin-left: 6.250em;
+	margin-right: 2.188em;
+	display: inline-block;
+}
+#SignUp{
+	width: 15.625em;
+	height: 9.375em;
+	background-color: none;
+	margin-left: 10.250em;
+	margin-right: 2.188em;
+	display: inline-block;
+
+}
+
+.button{
+	width: 93%;
+	height: 2.500em;
+	background-color: #96CDCD;
+	margin-left: 0.625em;
+	margin-right: 0.625em;
+}
+
+#username{
+	width: 93%;
+	height: 5.000em;
+	background-color: none;
+	margin-left: 0.625em;
+	margin-right: 0.625em;
+	margin-top: 10px;
+	margin-bottom: 0.625em;
+}
+#password{
+	width: 93%;
+	height: 5.000em;
+	background-color: none;
+	margin-left: 0.625em;
+	margin-bottom: 0.625em;
+	margin-right: 0.625em;
+	margin-top: 10px;
+}
+#e-mail{
+	width: 93%;
+	height: 5.000em;
+	background-color: none;
+	margin-left: 0.625em;
+	margin-right: 0.625em;
+	margin-top: 0.625em;
+	margin-bottom: 0.625em;
+}
+#terms{
+	width: 93%;
+	height: 2.000em;
+	background-color:none;
+	margin-left: 0.625em;
+	margin-right: 0.625em;
+	margin-top: 0.625em;
+	margin-bottom: 0.625em;
+	text-align: center;
+}
+
+#terms a{
+	text-decoration: none;
+}
+#mainFrame2{
+	width: 100%;
+	height: 100%;
+	background-image:url("http://netupd8.com/walls/Woodism%201920x1080.resized.jpg");
+}
+
+#logo{
+	color: green;
+	margin-left: 12.500em;
+}
+
+#coursesDiv{
+	text-align: center;
+}
+
+#top10Div{
+	width: 50%;
+	margin-left: 5.000em;
+	background-color: #77C7D9;
+	border-radius: 1.875em;
+	padding-right: 0.625em;
+	padding-top: 0.625em;
+	padding-bottom: 0.625em;
+}
+
+#top10List{
+	list-style-type: none;
+}
+
+#top10List li{
+	padding-left: 1.875em;
+	border-bottom: 0.125em solid;
+}
+
+#subFrame2{
+	margin-top: 3.125em;
+}
+#video{
+	width: 100%;
+	height: 21.875em;
+	background-color: none;
+	margin-bottom: 0.625em;
+}
+
+#top10{
+	height: 23.750em;
+	background-color: #f1eacb;
+	border-radius: 10%;
+	margin-bottom: 0.625em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3.125em;
+	width: 31.250em;
+}
+
+#top10 h2{
+	margin-left: 20%;
+}
+
+#course{
+	background-color: none;
+	margin: 3.125em 3.125em 3.125em 3.125em;
+	height: 18.750em;
+	width: 18.750em;
+	border-radius: 1.250em;
+}
+
+#mainFrame {
+	width: 100%;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+#mainBackground{
+	background-image: url("http://b.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2013/09/3016957-poster-p-1-google-will-power-the-online-learning-revolution-with-moocorg.jpg");
+	background-size: 100% 100%;
+	width: 100%;
+	height: 45em;
+
+}
+#title{
+	margin-left: 6.250em;
+	margin-top: 12.500em;
+}
+
+#title h1{
+	font-family: 'Dosis', sans-serif;
+	font-size: 3.125em;
+: 'Quicksand', sans-serif;
+	font-size: 3.125em;
+}
+
+#subTitle{
+	margin-left: 6.250em;
+}
+
+#subTitle h4{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.250em;
+: 'Dosis', sans-serif;
+	font-size: 1.250em;
+
+}
+
+#whatIsIt{
+	background-color: #F0ECEB;
+	width: 100%;
+	height: 62.500em;
+	padding: 0.625em;
+}
+
+#whatIsItDiv {
+	padding-left: 15em;
+	padding-right: 15em;
+	padding-top: 5em;
+	text-align: center;
+	height: 31.250em;
+}
+
+#videoDescMedia {
+	padding-top: 2em;
+}
+
+#whatIsIt h2{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.875em;
+: 'Quicksand', sans-serif;
+}
+
+#whatIsIt p{
+	font-family: 'Dosis', sans-serif;
+: 'Maven Pro', sans-serif;
+}
+
+#learningStyle {
+	height: 31.250em;
+	background-color: #0583F2;
+	padding: 0.625em,;
+	width: 100%;
+}
+
+#learningStyleDiv{
+	padding-left: 15em;
+	padding-right: 25em;
+	padding-top: 2em;
+	text-align: center;
+}
+#acordion{
+	padding-top: 3em;
+}
+
+#learningStyleText {
+	padding-top: 2em;
+}
+
+#learningP{
+	font-size: 0.750em;
+}
+
+#learningP2 {
+	font-size: 1.000em;
+	color: #D2D3D9;
+}
+
+#learningStyle span{
+	margin-left: 0.625em;
+	font-size: 0.813em;
+}
+
+#purpose {
+	text-align: center;
+	padding-right: 15em;
+	padding-left: 17em;
+	padding-top: 8em;
+	height: 31.250em;
+}
+
+#purposeText {
+	padding-top: 2em;
+}
+
+#imgStyles {
+	background-image: url("https://www.frbatlanta.org/~/media/Images/assets/image_gallery/learningstyles001h.ashx");
+	width: 13.750em;
+	height: 13.750em;
+	border-radius: 100%;
+}
+
+#teamDesc {
+	padding-right: 15em;
+	padding-left: 17em;
+	padding-top: 4em;
+	background-color: #0583F2;
+	height: 43.750em;
+}
+
+#teamDescText {
+	text-align: center;
+	margin-left: -30px;
+	padding-top: 7em;
+}
+
+#teamImgDiv{
+	padding-top: 3em;
+}
+#teamImg {
+	background-image: url("file:///C:/Users/Gabriel/Documents/GitHub/markrivac.github.io/img/gabo.jpg");
+	border-radius: 100%;
+	height: 12.500em;
+	width: 12.500em;
+}
+
+#teamImg2 {
+	background-image: url("file:///C:/Users/Gabriel/Documents/GitHub/markrivac.github.io/img/gabo.jpg");
+	border-radius: 100%;
+	margin-top: 1.250em;
+	height: 12.500em;
+	width: 12.500em;
+}
+
+#teamImg3 {
+	background-image: url("file:///C:/Users/Gabriel/Documents/GitHub/markrivac.github.io/img/gabo.jpg");
+	border-radius: 100%;
+	margin-top: 0.625em;
+	height: 12.500em;
+	width: 12.500em;
+}
+
+#sponsorImg {
+	background-image: url("file:///C:/Users/Gabriel/Documents/GitHub/markrivac.github.io/img/gabo.jpg");
+	border-radius: 100%;
+	margin-top: 9em;
+	height: 12.500em;
+	width: 12.500em;
+}
+
+#audience {
+	text-align: center;
+	background-color: #D2D3D9;
+	padding-left: 15em;
+	padding-right: 25em;
+	padding-top: 3em;
+	height: 31.250em;
+}
+
+#audienceText {
+	padding-top: 7em;
+}
+
+#audienceImg {
+	width: 25.000em;
+	height: 18.750em;
+	border-radius: 100%;
+	background-image: url("http://www.experian.com/blogs/marketing-forward/wp-content/uploads/2013/08/audience-targeting.jpg");
+}
+
+#audImg {
+	border-radius: 100%;
+	padding-top: 3em;
+}
+#itzel{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.563em;
+}
+#gabo{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.563em;
+
+}
+#mark{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.563em;
+}
+
+
+.imagen{
+width: 9.750em;
+ height: 9.750em;
+ border-radius: 9.375em;
+-moz-border-radius: 9.375em;
+-webkit-border-radius: 9.375em;
+-khtml-border-radius: 9.375em;
+ overflow: hidden;
+ float: right;
+}
+}
